@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .scroll {
+    @apply scrollbar-thin scrollbar-thumb-[#666] scrollbar-track-[#242424] scrollbar-thumb-rounded-md;
+  }
+}
